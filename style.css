@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;   
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.links ul li:hover{
+    background-color: red;
+    color: white;
+    transition: 555ms;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.logoText{
+   font-size: 23px; 
+}
+.btn p{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+header{
+    background-color: black;
+    /* opacity: 0.5; */
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.nav{
+    padding: 0px 20px;
+    height: 60px;
+    color: white;
+}
+.sticky{
+    width: 100%;
+    z-index: 1000;
+}
+/* banner */
+.banner{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(meeting-5395615_1280.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mybanner-text{
+    padding-top: 65px;
+}
+.mybanner-text h1{
+    color: white;
+    margin-top: 300px;
+    margin-bottom: 40px;
+    
+}
+.banner-box{
+    display: flex;
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: white;
+    height: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+    transition: 100ms;
+}
+.banner-box:hover{
+    box-shadow: 3px 3px 10px black;
+}
+.myboxdata{
+    padding: 5px 0px;
+}
+.myboxdata h3{
+    /* padding: 5px; */
+}
+.myboxdata p{
+    font-size: 15px;
+    text-align: center;
+}
+.icon{
+    background-color: red;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+}
+
+/* banner end*/
+
+
+/* exclusive part */
+
+.exclusive{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.grid{
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    place-items: center;
+    row-gap: 0px;
+    column-gap: 10px;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(5,1fr);
+}
+.gridbox{
+    background-color: red;
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid1{
+    background-image: 
+    linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url(london.jpg);
+}
+
+.grid1 p,
+.grid2 p,
+.grid2 p,
+.grid3 p,
+.grid4 p,
+.grid5 p,
+.grid6 p,
+.grid7 p,
+.grid8 p,
+.grid9 p,
+.grid10 p{
+       margin-top: 20px;
+}
+.grid2{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(dubai-1420494_640.jpg);
+}
+.grid3{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(lotus-temple-93564_640.jpg);
+}
+.grid4{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(newyark.jpg);
+}
+.grid5{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(paris.jpg);
+}
+.grid6{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(switherland.jpg);
+}
+.grid7{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(plouzane-1758197_640.jpg);
+}
+.grid8{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(london.jpg);
+}
+.grid9{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(newyark.jpg);
+}
+.grid10{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(london.jpg);
+}
+
+/* exclusive part end */
+
+
+/* trading */
+.gridTrading{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    place-items: center;
+    column-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+.gridBoxTrading{
+    width: 100%;
+    height: 70%;
+    /* position: relative; */
+}
+.gridSingleItem{
+    border-radius: 10px;
+    
+    height: 90%;
+}
+.g1{
+   background-image: url(lotus-temple-93564_640.jpg); 
+}
+.g2{
+   background-image: url(dubai-1420494_640.jpg); 
+}
+.g3{
+   background-image: url(newyark.jpg); 
+}
+.g4{
+   background-image: url(paris.jpg); 
+}
+
+
+/* trading end */
+.text{
+    height: 10%;
+    
+}
+.text p{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 19px;
+}
+
+/* bedroom */
+.bedroom{
+    width: 100%;
+    height: 50vh;
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(bedroom-7132435_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.text{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.text > .bigtext{
+    margin-top: 25%;
+    margin-left: 50px;
+    font-size: 32px;
+}
+.text > .para{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.text span{
+    margin-left: 50px;
+    margin-top: 12px;
+    background-color: red;
+    width: 35%;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+
+/* bedroom end */
+
+/* travelling */
+.travelling{
+    margin-top: 50px;
+    margin-bottom: 1px;
+}
+.gridTravelling{
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.gridTravelBox{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+.first
+{
+    background: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),url(dubai-1420494_640.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.first p,
+.second p,
+.third p{
+    color: rgb(223, 220, 220);
+    font-size: 22px;
+    margin-top: 40%;
+}
+.second
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background: url(newyark.jpg);
+}
+.third
+{
+    background: url(switherland.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.stbtn{
+    margin-top: 5%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 40%;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: red;
+}
+
+/* travelling end */
+
+/* about */
+.about{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.about h2{
+    margin-bottom: 10px;
+}
+.about h3{
+    color: rgb(104, 101, 101);
+    font-weight: 100;
+}
+/* about end */
+
+footer{
+    background-color: azure;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(148, 143, 143);
+}
+.footr h4{
+    margin-top: 20px;
+}
+.social_icons{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.social_icons i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SOME UTILITY CLASSES */
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.flexh{
+    display: flex;
+    align-items: center;
+}
+.justify-concent-between{
+    justify-content: space-between;
+}
+.justify-concent-around{
+    justify-content: space-around;
+}
+.center{
+    align-items: center;
+}
+.centerT{
+    text-align: center;
+}
